@@ -4,10 +4,18 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
+// Aplikasi todo list yang menggunakan cra dan redux beserta list yang dapat ditandai
+// dan dihapus. ada juga contact form untuk memberikan saran menggunakan controlled form,
+// aplikasi ini menggunakan router untuk pindah component dan juga terdapat testing 
+// di app.test.js, untuk styling terdapat css, aplikasi ini juga menerapkan composing,
+// extracting dan lifting state up. 
+
+
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <App />
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById('root')
 );
 
